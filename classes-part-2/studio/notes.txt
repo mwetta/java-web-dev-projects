@@ -1,0 +1,16 @@
+class Menu : constructor should take a title and default to current LocalDate for created
+    String menuTitle (e.g., Lunch, Dinner?)
+    arrayList menuItems = blank arrayList
+    LocalDate created = date the object is created
+
+    LocalDate updated = blank;
+    method addItemToMenu = (item) => menuItems.push(item), this.updated = LocalDate
+
+class menuItems
+    Float price
+    String description
+    Array category = appetizer, main course, or dessert
+        consider making an arrayList if categories are ever likely to change or expand,
+        e.g., beverages, cocktails, pastries, etc.
+    Boolean if current date is sooner than last updated date, set to true, else false
+
